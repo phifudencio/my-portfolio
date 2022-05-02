@@ -1,0 +1,49 @@
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+.resume-education {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.resume-skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.education {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.line {
+  border: solid 1px;
+  border-color: rgb(255, 226, 216);
+  border-left: none;
+  border-right: none;
+  width: 60vw;
+  height: 5px;
+}
+
+.resume-experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.work {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
