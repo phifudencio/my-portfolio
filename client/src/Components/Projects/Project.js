@@ -6,6 +6,7 @@ function Project() {
     <div>
       <div className="title">
         <h1>Projects</h1>
+        
       </div>
 
       <div className="display-projects">
@@ -13,7 +14,7 @@ function Project() {
           return (
             <div className="project-1">
               <h1>{data.title}</h1>
-              <a href={`${data.link}`} target="_blank">
+              <a href={`${data.link}`} target="_blank" rel="noreferrer">
                 <img alt="img1" src={data.path} />
               </a>
             </div>
