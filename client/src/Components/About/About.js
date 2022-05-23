@@ -14,7 +14,7 @@ function About() {
           My name is Matheus Drumond, I'm a Student and avid Jiu-jitsu fighter.
           Currently I'm working at UPS as a driver and persuing my carrear as a developer.
         </p>
-        <Button variant="secondary" href={require("../img/resume.pdf")} download="resume" >
+        <Button variant="secondary" href={require("../img/Matheus Drumond Resume.pdf")} download="Matheus Drumond Resume" >
           Download Resume
         </Button>
       </div>
