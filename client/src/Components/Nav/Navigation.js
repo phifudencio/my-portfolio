@@ -2,13 +2,14 @@ import React from "react";
 import linkedin from "../img/social/linkedin.png";
 import instagram from "../img/social/instagram.png";
 import twitter from "../img/social/twitter.png";
+import ferret from "../img/ferret.png";
 import { Navbar, NavDropdown, Nav, Container } from "react-bootstrap";
 
 function Navigation() {
   return (
     <Navbar bg="light" expand="xl" variant="light">
       <Container fluid style={{ marginRight: 100, marginLeft: 100 }}>
-        <Navbar.Brand href="/">MHD</Navbar.Brand>
+        <Navbar.Brand href="/"><img alt="" width="35" height="35" src={ferret}></img></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

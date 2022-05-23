@@ -1,6 +1,7 @@
 {
   "name": "client",
-  "version": "0.1.0",
+  "homepage": "http://matheusdrumond.com/"
+,  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
